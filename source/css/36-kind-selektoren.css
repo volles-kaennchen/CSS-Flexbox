@@ -1,0 +1,29 @@
+/* Betrifft alle List-Items */
+li { text-decoration: underline;}
+
+/* Nachfahre Selektor 
+    * Betrifft alle List-Items, egal von welcher Mutter
+*/
+div li{
+    /* kursiv */
+    font-style: italic; 
+}
+
+/* Kind-Selektor 
+    * Betrifft nur die Kinder der DIV-Mutter (keine Enkel, Urenkel..)
+*/
+div > ul {
+    list-style-type: none;
+}
+
+/* Betrifft nur den Ur-Ur-Enkel der DIV-Mutter */
+div > ul > li > ul > li {
+    font-weight: bold;
+    color: red;
+   
+}
+
+/* Betrifft alle Mutter-Kind-Beziehungen, bei welcher die Mutter ein UL und das Kind ein li ist */
+ul > li {
+    color: peru;
+}
