@@ -5,7 +5,7 @@
             justify-content: center;}
 
 		h1, h2, p {font-family:Georgia, Times, serif;
-                color: rgb(182, 138, 223);}
+                color: rgb(182, 138, 223);text-decoration: none; }
                
 
 		ul {list-style: none;
@@ -17,6 +17,6 @@
             margin-left: auto;
             margin-right: auto; }
 		
-		ul > li > a {text-decoration: none; color: rgb(194, 182, 192);}
+		ul > li {color: rgb(194, 182, 192);}
 
    .wrapper{border: 2px solid rgb(182, 138, 223); padding-left: 40px; padding-right: 40px; text-align: center;}
