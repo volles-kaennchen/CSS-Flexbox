@@ -17,6 +17,6 @@
             margin-left: auto;
             margin-right: auto; }
 		
-		ul > li {color: #fff;}
+	li {color: rgb(182, 138, 223);}
 
    .wrapper{border: 2px solid rgb(182, 138, 223); padding-left: 40px; padding-right: 40px; text-align: center;}
