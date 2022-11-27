@@ -4,7 +4,7 @@
             display: flex;
             justify-content: center;}
 
-		h1, h2, p {font-family:Georgia, Times, serif;
+		h1, h2, p, li {font-family:Georgia, Times, serif;
                 color: rgb(182, 138, 223);}
                
 
