@@ -3,7 +3,7 @@
 ### flex, inline-flex
     .container {display: flex;}
     .container {display: inline-flex;}
-
+   
  ### Ausrichtung von Zeilen und Spalten mit flex-direction
     .container { flex-direction: row | row-reverse | column |column-reverse}
     .container { flex-direction: Zeile | Zeile umgekehrt | Spalte | Spalte umgekehrt}
